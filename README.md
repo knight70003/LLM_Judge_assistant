@@ -82,7 +82,6 @@ PROBLEM 2/
 ├── .gitignore                    # Version control exclusion rules
 ├── app.py                        # FastAPI production web server and frontend UI
 ├── config.py                     # Environment and application parameters
-├── Discussion.md                 # System architecture trade-offs & evaluation methodology
 ├── README.md                     # Platform documentation
 ├── requirements.txt              # Project dependencies
 ├── run_analysis.py               # Statistical evaluation & bias analyzer runner
