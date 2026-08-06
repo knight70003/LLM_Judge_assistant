@@ -1,0 +1,16 @@
+[
+  {
+    "id": "P001",
+    "input": "What is Machine Learning?",
+    "system_prompt": "Answer accurately.",
+    "response_a": "Machine Learning is a branch of AI where systems learn from data.",
+    "response_b": "Machine Learning is the process of writing if-else rules manually."
+  },
+  {
+    "id": "P002",
+    "input": "What is Overfitting?",
+    "system_prompt": "Answer briefly.",
+    "response_a": "Overfitting happens when a model memorizes training data and performs poorly on unseen data.",
+    "response_b": "Overfitting means adding more layers always improves accuracy."
+  }
+]

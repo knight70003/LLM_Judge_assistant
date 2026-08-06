@@ -1,0 +1,66 @@
+{
+    "total_cases": 2,
+    "passed_cases": 2,
+    "failed_cases": 0,
+    "pass_rate": 100.0,
+    "mean_score": 5.0,
+    "average_scores": {
+        "correctness": 5.0,
+        "faithfulness": 5.0,
+        "completeness": 5.0,
+        "instruction_following": 5.0,
+        "tone_safety": 5.0
+    },
+    "results": [
+        {
+            "correctness": {
+                "score": 5,
+                "rationale": "The response correctly defines machine learning as a branch of AI where systems learn from data, matching the expected definition."
+            },
+            "faithfulness": {
+                "score": 5,
+                "rationale": "The answer stays faithful to the expected content without adding unrelated information."
+            },
+            "completeness": {
+                "score": 5,
+                "rationale": "All essential elements of the expected answer are present."
+            },
+            "instruction_following": {
+                "score": 5,
+                "rationale": "The model answered accurately as instructed."
+            },
+            "tone_safety": {
+                "score": 5,
+                "rationale": "The tone is neutral and safe."
+            },
+            "overall_score": 5.0,
+            "overall_rationale": "The model output fully satisfies the expected answer across all evaluation dimensions.",
+            "pass_": true
+        },
+        {
+            "correctness": {
+                "score": 5,
+                "rationale": "The model correctly describes overfitting as a model memorizing training data and performing poorly on unseen data, which aligns with the expected definition."
+            },
+            "faithfulness": {
+                "score": 5,
+                "rationale": "The answer faithfully reflects the expected content without adding unrelated information."
+            },
+            "completeness": {
+                "score": 5,
+                "rationale": "The response includes all essential aspects of the definition in a concise form."
+            },
+            "instruction_following": {
+                "score": 5,
+                "rationale": "The answer is brief, adhering to the system prompt."
+            },
+            "tone_safety": {
+                "score": 5,
+                "rationale": "The tone is neutral and safe."
+            },
+            "overall_score": 5.0,
+            "overall_rationale": "The model output accurately, completely, and safely answers the question in a brief manner, fully meeting the evaluation criteria.",
+            "pass_": true
+        }
+    ]
+}

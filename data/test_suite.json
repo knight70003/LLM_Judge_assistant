@@ -1,0 +1,30 @@
+[
+  {
+    "id": "TC001",
+    "input": "What is Machine Learning?",
+    "system_prompt": "Answer accurately.",
+    "model_output": "Machine Learning is a branch of AI where systems learn from data.",
+    "expected_output": "Machine Learning is a field of AI that enables systems to learn patterns from data.",
+    "criteria": [
+      "correctness",
+      "faithfulness",
+      "completeness",
+      "instruction_following",
+      "tone"
+    ]
+  },
+  {
+    "id": "TC002",
+    "input": "What is Overfitting?",
+    "system_prompt": "Answer briefly.",
+    "model_output": "Overfitting happens when a model memorizes training data and performs poorly on unseen data.",
+    "expected_output": "Overfitting occurs when a model fits training data too closely, reducing generalization.",
+    "criteria": [
+      "correctness",
+      "faithfulness",
+      "completeness",
+      "instruction_following",
+      "tone"
+    ]
+  }
+]
