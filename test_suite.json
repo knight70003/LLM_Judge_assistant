@@ -29,10 +29,10 @@
   },
   {
     "id": "TC003",
-    "input": "what is machine learning",
+    "input": "what is fastapi",
     "system_prompt": "Answer accurately.",
-    "model_output": "Automated response for 'what is machine learning': Evaluated concepts based on provided context.",
-    "expected_output": "Concise ground truth explanation covering core principles of 'what is machine learning'.",
+    "model_output": "Automated response for 'what is fastapi': Evaluated concepts based on provided context.",
+    "expected_output": "Concise ground truth explanation covering core principles of 'what is fastapi'.",
     "criteria": [
       "correctness",
       "faithfulness",
@@ -43,10 +43,52 @@
   },
   {
     "id": "TC004",
-    "input": "what is machine learning",
+    "input": "what is data drift",
     "system_prompt": "Answer accurately.",
-    "model_output": "Automated response for 'what is machine learning': Evaluated concepts based on provided context.",
-    "expected_output": "Concise ground truth explanation covering core principles of 'what is machine learning'.",
+    "model_output": "Automated response for 'what is data drift': Evaluated concepts based on provided context.",
+    "expected_output": "Concise ground truth explanation covering core principles of 'what is data drift'.",
+    "criteria": [
+      "correctness",
+      "faithfulness",
+      "completeness",
+      "instruction_following",
+      "tone"
+    ]
+  },
+  {
+    "id": "TC005",
+    "input": "what is LORA and QLORA ,explain its implementation and difference",
+    "system_prompt": "Answer accurately.",
+    "model_output": "Automated response for 'what is LORA and QLORA ,explain its implementation and difference': Evaluated concepts based on provided context.",
+    "expected_output": "Concise ground truth explanation covering core principles of 'what is LORA and QLORA ,explain its implementation and difference'.",
+    "criteria": [
+      "correctness",
+      "faithfulness",
+      "completeness",
+      "instruction_following",
+      "tone"
+    ]
+  },
+  {
+    "id": "TC006",
+    "input": "what is LORA",
+    "system_prompt": "Answer accurately.",
+    "model_output": "Automated response for 'what is LORA': Evaluated concepts based on provided context.",
+    "expected_output": "Concise ground truth explanation covering core principles of 'what is LORA'.",
+    "criteria": [
+      "correctness",
+      "faithfulness",
+      "completeness",
+      "instruction_following",
+      "tone"
+    ]
+  },
+  {
+    "id": "TC007",
+    "input": "what is LORA",
+    "system_prompt": "Answer accurately.",
+    "model_output": "Automated response for 'what is LORA': Evaluated concepts based on provided context.",
+    "expected_output": "Concise ground truth explanation covering core principles of 'what is LORA'.",
     "criteria": [
       "correctness",
       "faithfulness",

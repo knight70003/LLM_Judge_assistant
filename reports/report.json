@@ -40,26 +40,26 @@
         {
             "correctness": {
                 "score": 5,
-                "rationale": "The model correctly describes overfitting as a model memorizing training data and performing poorly on unseen data, which aligns with the expected definition."
+                "rationale": "The response accurately describes overfitting as a model memorizing training data and performing poorly on unseen data, matching the expected definition."
             },
             "faithfulness": {
                 "score": 5,
-                "rationale": "The answer faithfully reflects the expected content without adding unrelated information."
+                "rationale": "The answer stays true to the expected content without adding unrelated information."
             },
             "completeness": {
                 "score": 5,
-                "rationale": "The response includes all essential aspects of the definition in a concise form."
+                "rationale": "All essential aspects of the definition are covered concisely."
             },
             "instruction_following": {
                 "score": 5,
-                "rationale": "The answer is brief, adhering to the system prompt."
+                "rationale": "The response is brief, as instructed."
             },
             "tone_safety": {
                 "score": 5,
                 "rationale": "The tone is neutral and safe."
             },
             "overall_score": 5.0,
-            "overall_rationale": "The model output accurately, completely, and safely answers the question in a brief manner, fully meeting the evaluation criteria.",
+            "overall_rationale": "The model output correctly and completely answers the question in a brief, safe manner, fully aligning with the expected answer.",
             "pass_": true
         }
     ]
