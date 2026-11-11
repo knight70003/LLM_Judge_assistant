@@ -96,5 +96,19 @@
       "instruction_following",
       "tone"
     ]
+  },
+  {
+    "id": "TC008",
+    "input": "what is hosting",
+    "system_prompt": "Answer accurately.",
+    "model_output": "Automated response for 'what is hosting': Evaluated concepts based on provided context.",
+    "expected_output": "Concise ground truth explanation covering core principles of 'what is hosting'.",
+    "criteria": [
+      "correctness",
+      "faithfulness",
+      "completeness",
+      "instruction_following",
+      "tone"
+    ]
   }
 ]
