@@ -6,7 +6,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 JUDGE_MODEL = os.getenv("JUDGE_MODEL", "openai/gpt-oss-120b")
-GENERATOR_MODEL = os.getenv("GENERATOR_MODEL", "openai/gpt-oss-120b")
+GENERATOR_MODEL = os.getenv("GENERATOR_MODEL", "llama-3.1-8b-instant")
 
 TEMPERATURE = float(os.getenv("TEMPERATURE", 0))
 

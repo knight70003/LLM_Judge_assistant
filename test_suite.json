@@ -110,5 +110,19 @@
       "instruction_following",
       "tone"
     ]
+  },
+  {
+    "id": "TC009",
+    "input": "what is L1 regularization",
+    "system_prompt": "Answer accurately.",
+    "model_output": "Automated response for 'what is L1 regularization': Evaluated concepts based on provided context.",
+    "expected_output": "Concise ground truth explanation covering core principles of 'what is L1 regularization'.",
+    "criteria": [
+      "correctness",
+      "faithfulness",
+      "completeness",
+      "instruction_following",
+      "tone"
+    ]
   }
 ]

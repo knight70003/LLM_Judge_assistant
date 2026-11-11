@@ -15,7 +15,7 @@
         {
             "correctness": {
                 "score": 5,
-                "rationale": "The response correctly defines machine learning as a branch of AI where systems learn from data, matching the expected definition."
+                "rationale": "The response correctly defines machine learning as a part of AI where systems learn from data, matching the expected definition."
             },
             "faithfulness": {
                 "score": 5,
