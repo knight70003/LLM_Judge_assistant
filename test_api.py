@@ -4,7 +4,7 @@ from google import genai
 
 load_dotenv()
 
-key = os.getenv("GOOGLE_API_KEY")
+key = os.getenv("GROQ_API_KEY")
 
 print("Key:", key[:5])
 print("Length:", len(key))
@@ -12,7 +12,7 @@ print("Length:", len(key))
 client = genai.Client(api_key=key)
 
 response = client.models.generate_content(
-    model="gemini-3.5-flash",
+    model="openai/gpt-oss-120b",
     contents="Hello"
 )
 
